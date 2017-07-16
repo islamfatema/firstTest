@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47139" started-at="2017-07-15T20:22:06Z" finished-at="2017-07-15T20:22:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="47139" started-at="2017-07-15T20:22:06Z" finished-at="2017-07-15T20:22:53Z">
+      <class name="com.first.macCode.first.macCode.com.VerifyCreateAccount">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.first.macCode.first.macCode.com.VerifyCreateAccount@7d907bac]" name="initializeDriver" is-config="true" duration-ms="2989" started-at="2017-07-15T16:22:06Z" finished-at="2017-07-15T16:22:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="creatAccount()[pri:0, instance:com.first.macCode.first.macCode.com.VerifyCreateAccount@7d907bac]" name="creatAccount" duration-ms="11347" started-at="2017-07-15T16:22:09Z" finished-at="2017-07-15T16:22:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatAccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.first.macCode.first.macCode.com.VerifyCreateAccount@7d907bac]" name="tearDown" is-config="true" duration-ms="1199" started-at="2017-07-15T16:22:20Z" finished-at="2017-07-15T16:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.first.macCode.first.macCode.com.VerifyCreateAccount -->
+      <class name="com.first.macCode.first.macCode.com.VerifyRadioButton">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.first.macCode.first.macCode.com.VerifyRadioButton@3a5ed7a6]" name="initializeDriver" is-config="true" duration-ms="2688" started-at="2017-07-15T16:22:37Z" finished-at="2017-07-15T16:22:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="verifyMobileLink()[pri:0, instance:com.first.macCode.first.macCode.com.VerifyRadioButton@3a5ed7a6]" name="verifyMobileLink" duration-ms="12020" started-at="2017-07-15T16:22:40Z" finished-at="2017-07-15T16:22:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMobileLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.first.macCode.first.macCode.com.VerifyRadioButton@3a5ed7a6]" name="tearDown" is-config="true" duration-ms="1209" started-at="2017-07-15T16:22:52Z" finished-at="2017-07-15T16:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.first.macCode.first.macCode.com.VerifyRadioButton -->
+      <class name="com.first.macCode.first.macCode.com.VerifyPrivacyPolicy">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.first.macCode.first.macCode.com.VerifyPrivacyPolicy@7791a895]" name="initializeDriver" is-config="true" duration-ms="2678" started-at="2017-07-15T16:22:22Z" finished-at="2017-07-15T16:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="verifyCreatePage()[pri:0, instance:com.first.macCode.first.macCode.com.VerifyPrivacyPolicy@7791a895]" name="verifyCreatePage" duration-ms="11723" started-at="2017-07-15T16:22:24Z" finished-at="2017-07-15T16:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreatePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.first.macCode.first.macCode.com.VerifyPrivacyPolicy@7791a895]" name="tearDown" is-config="true" duration-ms="1205" started-at="2017-07-15T16:22:36Z" finished-at="2017-07-15T16:22:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.first.macCode.first.macCode.com.VerifyPrivacyPolicy -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

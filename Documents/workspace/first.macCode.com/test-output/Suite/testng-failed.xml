@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.first.macCode.first.macCode.com.VerifyPrivacyPolicy">
+        <methods>
+          <include name="verifyCreatePage"/>
+          <include name="tearDown"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- com.first.macCode.first.macCode.com.VerifyPrivacyPolicy -->
+      <class name="com.first.macCode.first.macCode.com.VerifyRadioButton">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initializeDriver"/>
+          <include name="verifyMobileLink"/>
+        </methods>
+      </class> <!-- com.first.macCode.first.macCode.com.VerifyRadioButton -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
